@@ -1,6 +1,6 @@
 import LocationIcon from "../../../Images/icons/locationIcon.svg";
 import Message from "../../../Images/icons/messageIcon.svg";
-import TimeIcon from "../../../Images/icons/timeicon.svg";
+import TimeIcon from "../../../Images/icons/timeIcon.svg";
 import Instagram from "../../../Images/icons/insta.svg";
 import Facebook from "../../../Images/icons/facebook.svg";
 import Twitter from "../../../Images/icons/twitter.svg";
