@@ -1,0 +1,100 @@
+.hero-section {
+  background-color: #ffffff;
+  padding: 15px 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-in-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 825px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 601px;
+}
+
+.nav-link {
+  line-height: 21.78px;
+}
+
+/*! MAIN SECTION */
+
+.main-section {
+  background-image: url(../../../Images/Img/heroBg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-section__wrapper {
+  width: 828px;
+  padding: 180px 100px;
+  background-color: #37393fe8;
+
+  backdrop-filter: blur(10px);
+}
+
+.main-section__info {
+  font-size: 18px;
+  color: white;
+  padding-left: 20px;
+  position: relative;
+}
+
+.main-section__info::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 11px;
+  height: 11px;
+  background-color: #40ddb6;
+  display: block;
+}
+
+.main-section__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  width: 550px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.main-section__in-title {
+  color: #40ddb6;
+}
+
+.main-section__text {
+  color: #fff;
+  font-size: 18px;
+  width: 490px;
+}
+
+.main-section__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 420px;
+  margin-top: 20px;
+}
+
+.main-section__play-vid {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.playbtn {
+  margin-right: 10px;
+}
