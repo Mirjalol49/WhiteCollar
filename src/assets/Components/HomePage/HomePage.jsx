@@ -1,6 +1,8 @@
+import Brands from "./Brands/Brands";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import SecondSec from "./SecondSection/SecondSec";
+import Solutions from "./Solutions/Solutions";
 
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
       <Header />
       <Hero />
       <SecondSec />
+      <Brands />
+      <Solutions />
     </>
   );
 };

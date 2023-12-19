@@ -1,0 +1,81 @@
+.solutions {
+  padding: 50px 0;
+}
+
+.solutions-head-title {
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.solutions-head-title::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #40ddb6;
+  position: absolute;
+  left: 495px;
+  top: 6px;
+}
+
+.solutions-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 48.4px;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  color: #37393f;
+}
+
+.solutions-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.solutions-inbox {
+  background-color: #f4f4f4;
+  padding: 30px;
+  width: 100%;
+  height: 200px;
+  max-width: 385px;
+  margin: 0 0 20px 0;
+}
+
+.solutions-titlebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.solutions-in-title {
+  font-family: "Poppins", sans-serif;
+  line-height: 31px;
+  font-size: 25px;
+  color: #37393f;
+}
+
+.solutions-inlink {
+  color: #6b77e5;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  display: block;
+}
+
+.solutions-readmore {
+  width: 100%;
+  max-width: 385px;
+  padding: 80px;
+  text-align: center;
+  background-color: #6b77e5;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+}
