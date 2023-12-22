@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import SecondSec from "./SecondSection/SecondSec";
 import Solutions from "./Solutions/Solutions";
+import WhyChooseMe from "./WhyChooseMe/WhyChooseMe";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <SecondSec />
       <Brands />
       <Solutions />
+      <WhyChooseMe />
     </>
   );
 };
