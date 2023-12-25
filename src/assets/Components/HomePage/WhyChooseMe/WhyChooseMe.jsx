@@ -1,27 +1,35 @@
 import "./WhyChooseMe.css";
-
+import ChartBg from "../../../Images/Img/chartBg.jpg";
 const WhyChooseMe = () => {
   return (
-    <section>
-      <div className="container">
+    <section className="chart">
+      <div className="chart-inner-wrapper">
         <p className="chart-subtitle">Why Choose Me</p>
         <h2 className="chart-main-title ">
-          We provide solutions to grow your business
+          We Provide Solutions To Grow Your Business
         </h2>
-        <p>
+        <p className="chart-text">
           Leverage agile frameworks to provide a robust synopsis for high level
           overviews. thinking to further the overall proposition.{" "}
         </p>
         <div className="chart-box">
           <div className="chart-box__start">
-            <div className="chart-box__chart">95%</div>
+            <div className="chart-barbox">
+              <div className="chart-box__chart">
+                <span className="chart-bar-content">95%</span>
+              </div>
+            </div>
             <div className="chart-box__textbox">
               <p className="chart-box__text">Clients</p>
               <p className="chart-box__text-title">Quick Responses</p>
             </div>
           </div>
           <div className="chart-box__end">
-            <div className="chart-box__chart">85%</div>
+            <div className="chart-barbox">
+              <div className="chart-box__chart">
+                <span className="chart-bar-content">85%</span>
+              </div>
+            </div>
             <div className="chart-box__textbox">
               <p className="chart-box__text">Projects</p>
               <p className="chart-box__text-title">Finished Jobs</p>
@@ -29,12 +37,19 @@ const WhyChooseMe = () => {
           </div>
         </div>
         <div className="chart-done">
-          <span>2,800+ Active clients</span>
-          <span>106+</span>
-          <span>1,670 + 5 ⭐ stars reviews</span>
-          <a href="/link">Get in Touch</a>
+          <span className="chart-done__text">2,800+ Active clients</span>
+          <span className="chart-done__text">106+</span>
+          <span className="chart-done__text">
+            1,670 + <span className="chart-done__highlight">5 ⭐ stars</span>{" "}
+            reviews
+          </span>
+          <a className="chart-done__link" href="/link">
+            Get in Touch
+          </a>
         </div>
       </div>
+
+      <img src={ChartBg} alt="chatbg" />
     </section>
   );
 };

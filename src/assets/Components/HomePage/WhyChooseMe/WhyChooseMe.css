@@ -1,2 +1,161 @@
-.chart-bg {
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #37393f;
+  margin: 50px 0;
+}
+
+.chart-inner-wrapper {
+  width: 100%;
+  padding-left: 250px;
+}
+
+.chart-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  position: relative;
+}
+
+.chart-subtitle::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: block;
+  background-color: #40ddb6;
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+
+.chart-main-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.chart-text {
+  color: #fff;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.chart-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 750px;
+  margin-top: 20px;
+}
+
+.chart-box__start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  background-color: #2e2f34;
+}
+
+.chart-barbox {
+  width: 140px;
+  height: 140px;
+  background: conic-gradient(#40ddb6 0.97turn, #37393f 0deg);
+  border-radius: 50%;
+  position: relative;
+}
+
+.chart-box__chart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 130px;
+  height: 130px;
+  background-color: #37393f;
+  border-radius: 50%;
+}
+
+.chart-bar-content {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-size: 30px;
+}
+
+.chart-box__text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.chart-box__text-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.chart-box__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  background-color: #2e2f34;
+}
+
+.chart-done {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+  color: #fff;
+  padding-left: 30px;
+}
+.chart-done__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+}
+
+.chart-done__text::before {
+  content: url(../../../Images/icons/tick.svg);
+  filter: invert(18%) sepia(79%) saturate(2476%) hue-rotate(80deg)
+    brightness(100%) contrast(59%);
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: -35px;
+}
+
+.chart-done__highlight {
+  color: #ffb342;
+}
+
+.chart-done__link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #40ddb6;
+  text-decoration: underline;
 }
