@@ -1,4 +1,5 @@
 import Brands from "./Brands/Brands";
+import ClientsSection from "./ClientSection/ClientsSection";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import OurProject from "./OurProject/OurProject";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Solutions />
       <WhyChooseMe />
       <OurProject />
+      <ClientsSection />
     </>
   );
 };

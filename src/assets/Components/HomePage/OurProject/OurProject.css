@@ -38,10 +38,11 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
+  padding: 0 50px;
 }
 
 .our-project__img {
   width: 100%;
-  max-width: 570px;
+  max-width: 420px;
   height: auto;
 }
