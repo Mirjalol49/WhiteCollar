@@ -1,3 +1,4 @@
+import Appointment from "./Appointment/Appointment";
 import Brands from "./Brands/Brands";
 import ClientsSection from "./ClientSection/ClientsSection";
 import Header from "./Header/Header";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <WhyChooseMe />
       <OurProject />
       <ClientsSection />
+      <Appointment />
     </>
   );
 };

@@ -1,0 +1,29 @@
+.planning-title {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #fff;
+  position: relative;
+}
+
+.planning-title::before {
+  content: url(../../../../Images/icons/tick-gr.png);
+
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: -35px;
+}
+
+.planning-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+}

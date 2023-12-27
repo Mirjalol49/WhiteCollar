@@ -1,0 +1,116 @@
+.appoint {
+  background-color: #6b77e5;
+  padding: 100px;
+  margin-top: 200px;
+}
+
+.appoint-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.appoint-start {
+  width: 100%;
+  max-width: 515px;
+}
+.appoint-start__subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  position: relative;
+  color: #ffffff;
+}
+
+.appoint-start__subtitle::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+  position: absolute;
+  top: 4px;
+  left: -17px;
+}
+
+.appoint-start__title {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.appoint-start__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.appoint-exp-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #40ddb6;
+  color: #fff;
+  padding: 30px 5px 30px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.appoint-exp__round {
+  border: 2px solid #6b77e5;
+  border-radius: 50%;
+  width: 220px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.appoint-round {
+  font-size: 30px;
+  display: block;
+  width: 100%;
+}
+
+.appoint-exp__text {
+  margin-left: 20px;
+}
+.appoint-end {
+  width: 100%;
+  max-width: 500px;
+}
+.appoint-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.appoint-input {
+  border: 2px solid #dddddd;
+  background-color: #f8f8f8;
+  padding: 20px;
+  color: #37393f;
+  margin-bottom: 20px;
+}
+
+.appoint-daypicker-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  border: 2px solid #dddddd;
+  background-color: #f8f8f8;
+  width: 180px;
+  padding: 20px;
+}

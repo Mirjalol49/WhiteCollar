@@ -136,9 +136,8 @@
 }
 
 .chart-done__text::before {
-  content: url(../../../Images/icons/tick.svg);
-  filter: invert(18%) sepia(79%) saturate(2476%) hue-rotate(80deg)
-    brightness(100%) contrast(59%);
+  content: url(../../../Images/icons/tick-gr.png);
+
   width: 20px;
   height: 20px;
   display: block;
